@@ -24,6 +24,10 @@ class ShipDetails extends React.Component {
     this.delete = (id) => {
       this.store.deleteOne(id)
     }
+
+    this.save = (id, crewMember) => {
+      this.store.saveOne(id, crewMember)
+    }
   }
 
   componentDidMount () {
@@ -41,7 +45,7 @@ class ShipDetails extends React.Component {
         i will be the ship details for {this.props.item}
         <div>
           {
-            this.state.crewMembers.map(e => <CrewMember item={e} key={e.id} onDelete={this.delete} />)
+            this.state.crewMembers.map(e => <CrewMember item={e} key={e.id} onDelete={this.delete} onSave={this.save} />)
           }
         </div>
         <div>
