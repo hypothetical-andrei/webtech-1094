@@ -1,0 +1,7 @@
+div>p {
+  color: green;
+}
+
+div>p>span {
+  color:blue;
+}

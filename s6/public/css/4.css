@@ -1,0 +1,9 @@
+table tr:nth-child(odd) td:nth-child(odd),table tr:nth-child(even) td:nth-child(even) {
+  background-color: lightblue;
+  color:orange;
+}
+
+table tr:nth-child(odd) td:nth-child(even),table tr:nth-child(even) td:nth-child(odd) {
+  background-color: orange;
+  color: lightblue;
+}

@@ -1,0 +1,35 @@
+body {
+  margin: 0px;
+}
+
+.main{
+  width: 100vw;
+  height: 100vh;
+}
+
+.view {
+  width: 70vw;
+  height: 100vh;
+  background-color: lightblue;
+  float: left;
+  text-align: center;
+  line-height: 100vh;
+}
+
+.sidebar {
+  width: 30vw;
+  height: 100vh;
+  background-color: gold;
+  float: left;
+}
+
+.sidebar-item{
+  height: 33vh;
+  line-height: 33vh;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.sidebar-item:hover{
+  border: 3px dashed tomato;
+}

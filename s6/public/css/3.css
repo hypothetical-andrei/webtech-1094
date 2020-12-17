@@ -1,0 +1,11 @@
+tbody tr:nth-child(odd){
+  background-color: green;
+}
+
+tbody tr:nth-child(even){
+  background-color: orange;
+}
+
+th{
+  font-style: italic;
+}
